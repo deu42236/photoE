@@ -28,12 +28,6 @@ def filter2():
                 obrazek.putpixel((x,y), (0, 0, 0))
 #-------------------------------------------------------------
 def filter3():
-    from PIL import Image
-    import time
-    start_time = time.time()
-
-    obrazek = Image.open("trouba.jpg")
-    sirka, vyska = obrazek.size
     x = 0
     for x in range(sirka):
         y = 0
