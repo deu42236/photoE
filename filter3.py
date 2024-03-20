@@ -11,7 +11,6 @@ for x in range(sirka):
         r, g, b = obrazek.getpixel((x,y))
         prumer = int((r+g+b)/3)
         obrazek.putpixel((x,y), (70-r , 70-g, 98-b))
-    x += 1
 
 print("ok")
 ##display(obrazek)

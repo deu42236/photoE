@@ -15,8 +15,8 @@ for x in range(sirka):
             obrazek.putpixel((x,y), (255, 255, 255))
         else:
             obrazek.putpixel((x,y), (0, 0, 0))
-        y += 1
-    x += 1
+
+
 print("ok")
 ##display(obrazek)
 end_time = time.time()
